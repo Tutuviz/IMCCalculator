@@ -4,7 +4,6 @@ document
     var altura = parseFloat(document.querySelector("#txtValor1").value);
     var peso = parseFloat(document.querySelector("#txtValor2").value);
     var op = parseInt(document.querySelector("#txtOp").value);
-    alert(altura);
     var imc = peso / (altura * altura);
     var resultado = "";
     var condicao;
