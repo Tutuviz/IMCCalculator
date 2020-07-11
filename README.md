@@ -1,1 +1,1 @@
-https://tutuviz.github.io/IMCCalulator/.
+https://tutuviz.github.io/IMCCalulator/index.html
