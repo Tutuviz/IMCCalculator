@@ -46,21 +46,27 @@
     </nav>
     <div class="jumbotron text-center">
       <h1>Calculadora de Índice de Massa Corporal</h1>
-      <p>Sejam bem vindos ao sistema de calculadora de IMC</p>
+      <h2>
+        Sejam bem vindos ao sistema de calculadora de
+        <abbr title="Indice de Massa Corporal" class="initialism">IMC</abbr>
+      </h2>
     </div>
 
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <h3>Dados para calcular o IMC</h3>
+          <h3>
+            Dados para calcular o
+            <abbr title="Indice de Massa Corporal" class="initialism">IMC</abbr>
+          </h3>
           <form action="" class="form">
             <div class="form-group">
               <label for="">Informe a Altura</label>
               <input
                 type="text"
                 class="form-control"
-                id="txtValor1"
-                name="txtValor1"
+                id="altura"
+                name="altura"
                 placeholder="Ex. 1.70"
                 required
               />
@@ -70,8 +76,8 @@
               <input
                 type="text"
                 class="form-control"
-                id="txtValor2"
-                name="txtValor2"
+                id="peso"
+                name="peso"
                 placeholder="Ex. 60.5"
                 required
               />
@@ -87,7 +93,7 @@
         <br />
         <label for="">IMC: <span id="txtCalculo"></span></label>
         <br />
-        <label for="">Resultado: <span id="txtResult"></span></label>
+        <label for="">Classificação: <span id="txtResult"></span></label>
       </div>
     </div>
 

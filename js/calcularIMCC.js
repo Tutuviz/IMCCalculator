@@ -1,9 +1,9 @@
 document
   .getElementById("btnExecutar")
   .addEventListener("click", function (event) {
-    var altura = parseFloat(document.querySelector("#txtValor1").value);
-    var peso = parseFloat(document.querySelector("#txtValor2").value);
-    var op = parseInt(document.querySelector("#txtOp").value);
+    var altura = parseFloat(document.querySelector("#altura").value);
+    var peso = parseFloat(document.querySelector("#peso").value);
+    var op = parseInt(document.querySelector("#option").value);
     var imc = peso / (altura * altura);
     var resultado = "";
     var condicao;
